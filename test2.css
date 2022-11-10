@@ -17,13 +17,23 @@ a{
     right:35%;
     top: 20vh;
 }
-li{
+b{
+    background-color: gray;
+    border: solid;
 
+    position: fixed;
+    left: 35%;
+    right:35%;
+    top: 60vh;
+}
+c{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 button{
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     border: 2px solid;
     color: white;
     padding: 10px 10px;
@@ -36,7 +46,7 @@ button{
 }
 
 button2{
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     border: 2px solid;
     color: white;
     padding: 10px 10px;
@@ -45,5 +55,22 @@ button2{
     display: inline-block;
     font-size: 16px;
 
-    width: 45px
+    width: 55px
+}
+
+button:hover{
+    background-color: darkgreen;
+    
+}
+button2:hover{
+    background-color: darkgreen;
+    
+}
+
+verlaufbox{
+    background-color: white;
+    border: 2px solid;
+    color: black;
+
+    
 }
